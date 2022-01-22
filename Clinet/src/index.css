@@ -14,8 +14,17 @@
   grid-template-rows: 30px 1fr 30px;
   height: 100%;
 }
-
 .content {
   grid-area: content;
 }
 
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.product-container {
+  display: flex;
+  justify-content: space-between;
+  flex: 0.6;
+}
