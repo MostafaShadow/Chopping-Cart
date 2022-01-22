@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  height: 100vh;
+}
+
+.layout {
+  display: grid;
+  grid-template-areas: "header" "content" "footer";
+  grid-template-rows: 30px 1fr 30px;
+  height: 100%;
+}
+
+.content {
+  grid-area: content;
+}
+footer {
+  grid-area: footer;
+}
