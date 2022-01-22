@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "title": "Product 1",
+    "desc": "this is Product 1",
+    "img": "/images/one.jfif",
+    "price": 200
+  },
+  {
+    "id": 2,
+    "title": "Product 2",
+    "desc": "this is Product 2",
+    "img": "/images/two.jfif",
+    "price": 200
+  },
+  {
+    "id": 3,
+    "title": "Product 3",
+    "desc": "this is Product 3",
+    "img": "/images/three.jfif",
+    "price": 200
+  }
+]
