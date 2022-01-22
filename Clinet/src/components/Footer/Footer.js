@@ -1,8 +1,10 @@
-import React from 'react';
-
-import "../../css/Footer/footer.css"
+import React from "react";
+import { words } from "../../staticfile";
+import "../../css/Footer/footer.css";
 export const Footer = () => {
-  return <footer>
-      <h6> &copy; Copyright Mostafa Mohamed 2022</h6>
-  </footer>;
+  return (
+    <footer>
+      <h6>{words.footerTitle}</h6>
+    </footer>
+  );
 };
